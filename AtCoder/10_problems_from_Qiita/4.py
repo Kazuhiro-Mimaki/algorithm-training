@@ -17,8 +17,3 @@ for i in range(A+1):
         sum += 1
 print(sum)
 
-# result = a * b % 2
-# if result == 0:
-#   print('Even')
-# else:
-#   print('Odd')
