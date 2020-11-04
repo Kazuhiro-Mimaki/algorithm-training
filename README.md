@@ -11,3 +11,20 @@
 ## python役立ち資料
 - [Python3の標準入力やり方まとめ](https://qiita.com/yasu_teco/items/e8db933ac4f647166996)
 - [競プロ等におけるpython3の標準入力](https://qiita.com/zenrshon/items/c4f3849552348b3dbe67)
+
+## python 標準入力テクニック
+
+### 1行に1つの文字列
+```python
+str = input()
+```
+
+### １行に１つの数値（整数もしくは浮動小数点数）の場合
+```python
+int = int(input())
+```
+
+### １行に複数の数値（整数もしくは浮動小数点数）の場合
+```python
+a,b = map(int, input().split())　# "A B"と空白区切りで数値が入力されるのを受け取る
+```
