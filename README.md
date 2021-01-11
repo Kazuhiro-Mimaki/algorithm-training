@@ -28,3 +28,8 @@ int = int(input())
 ```python
 a,b = map(int, input().split())　# "A B"と空白区切りで数値が入力されるのを受け取る
 ```
+
+### 1行に複数の数値
+```
+a = list(map(int, input().split()))
+```
